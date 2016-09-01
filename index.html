@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaScript Game</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="outerwrapper">
+    <header>
+      <h1>Welcome to my JavaScript game!</h1>
+      <h1 id = "playergreeting"></h1>
+    </header>
+    <nav id ="nav">
+    </nav>
+    <main>
+      <h1 id="totalscore">Score</h1>
+      <div id="question1">
+        <h2>Question 1</h2>
+        <h3>Which of the following uses correct case?</h3>
+          <form action="">
+            <input type="radio" id = "q1r1" name="radio1" value=""> Document.write() <br>
+            <input type="radio" id = "q1r2" name="radio1" value=""> document.write() <br>
+            <input type="radio" id = "q1r3" name="radio1" value=""> document.Write() <br>
+            <input type="radio" id = "q1r4" name="radio1" value=""> Document.write() <br>
+            <button type="button" id="button1"> Submit </button>
+            <p id="feedback1"></p>
+          </form>
+        </div>
+        <div id = "question2">
+          <h2>Question 2</h2>
+          <h3>Which method displays a dialog box with an OK button?</h3>
+          <form action="">
+            <input type="radio" id = "q2r1" name="radio2" value=""> document.write() <br>
+            <input type="radio" id = "q2r2" name="radio2" value=""> document.writeIn() <br>
+            <input type="radio" id = "q2r3" name="radio2" value=""> window.alert() <br>
+            <input type="radio" id = "q2r4" name="radio2" value=""> window.popup() <br>
+            <button type="button" id="button2"> Submit </button>
+            <p id="feedback2"></p>
+          </form>
+        </div>
+        <div id="question3">
+          <h2>Question 3</h2>
+          <h3>Which of the following is a Boolean value?</h3>
+          <form action="">
+            <input type="radio" id = "q3r1" name="radio3" value=""> 3.04<br>
+            <input type="radio" id = "q3r2" name="radio3" value=""> true<br>
+            <input type="radio" id = "q3r3" name="radio3" value=""> "Greece"<br>
+            <input type="radio" id = "q3r4" name="radio3" value=""> 6.02e23 <br>
+            <button type="button" id="button3"> Submit </button>
+            <p id="feedback3"></p>
+          </form>
+        </div>
+        <div id="question4">
+          <h2>Question 4</h2>
+          <h3>Which of the following is an arithmetic binary operator?</h3>
+          <form action="">
+            <input type="radio" id = "q4r1" name="radio4" value=""> + <br>
+            <input type="radio" id = "q4r2" name="radio4" value=""> || <br>
+            <input type="radio" id = "q4r3" name="radio4" value=""> = <br>
+            <input type="radio" id = "q4r4" name="radio4" value=""> && <br>
+            <button type="button" id="button4"> Submit </button>
+            <p id="feedback4"></p>
+          </form>
+        </div>
+        <div id="question5">
+          <h2>Question 5</h2>
+          <h3>What is the correct syntax for creating an empty array name taxRules?</h3>
+          <form action="">
+            <input type="radio" id = "q5r1" name="radio5" value=""> var taxRules = {}; <br>
+            <input type="radio" id = "q5r2" name="radio5" value=""> var taxRules; <br>
+            <input type="radio" id = "q5r3" name="radio5" value=""> var taxRules = [];<br>
+            <input type="radio" id = "q5r4" name="radio5" value=""> var taxRules[5];<br>
+            <button type="button" id="button5"> Submit </button>
+            <p id="feedback5"></p>
+          </form>
+        </div>
+        <div id="question6">
+          <h2>Question 6</h2>
+          <h3>Which characters are used to create a command block?</h3>
+          <form action="">
+            <input type="radio" id = "q6r1" name="radio6" value=""> () <br>
+            <input type="radio" id = "q6r2" name="radio6" value=""> [] <br>
+            <input type="radio" id = "q6r3" name="radio6" value=""> {} <br>
+            <input type="radio" id = "q6r4" name="radio6" value=""> <> <br>
+            <button type="button" id="button6"> Submit </button>
+            <p id="feedback6"></p>
+          </form>
+        </div>
+        <div id="question7">
+          <h2>Question 7</h2>
+          <h3>What type of error occurs when the interpreter fails to recognize code?</h3>
+          <form action="">
+            <input type="radio" id = "q7r1" name="radio7" value=""> Debugging <br>
+            <input type="radio" id = "q7r2" name="radio7" value=""> Syntax <br>
+            <input type="radio" id = "q7r3" name="radio7" value=""> Run-time <br>
+            <input type="radio" id = "q7r4" name="radio7" value=""> Logic <br>
+            <button type="button" id="button7"> Submit </button>
+            <p id="feedback7"></p>
+          </form>
+        </div>
+        <div id="question8">
+        <h2>Question 8</h2>
+        <h3>Which of the following statements causes a syntax error?</h3>
+        <form action="">
+          <input type="radio" id = "q8r1" name="radio8" value=""> var firstName = ""; <br>
+          <input type="radio" id = "q8r2"name="radio8" value=""> document.write(Available points: " + availPoints); <br>
+          <input type="radio" id = "q8r3" name="radio8" value=""> readyState = true; <br>
+          <input type="radio" id = "q8r4" name="radio8" value=""> "use strict"; <br>
+          <button type="button" id="button8"> Submit </button>
+          <p id="feedback8"></p>
+        </form>
+        </div>
+        <div id="question9">
+          <h2>Question 9</h2>
+          <h3>Which of the following is the correct syntax for accessing an element with the id value headline?</h3>
+          <form action="">
+            <input type="radio" id = "q9r1" name="radio9" value=""> document.getElementsById("headline") <br>
+            <input type="radio" id = "q9r2" name="adio9" value=""> document.getElementById("headline") <br>
+            <input type="radio" id = "q9r3" name="adio9" value=""> document.getElementByID("headline") <br>
+            <input type="radio" id = "q9r4" name="adio9" value=""> document.getElementById(headline) <br>
+            <button type="button" id="button9"> Submit </button>
+            <p id="feedback9"></p>
+          </form>
+        </div>
+        <div class="question10">
+          <h2>Question 10</h2>
+          <h3>Who wrote the song Nothing Compares 2 U?</h3>
+          <form action="">
+            <input type="radio" id = "q10r1" name="radio10" value=""> Sinéad O'Connor <br>
+            <input type="radio" id = "q10r2" name="radio10" value=""> Madonna <br>
+            <input type="radio" id = "q10r3" name="radio10" value=""> Prince <br>
+            <input type="radio" id = "q10r4" name="radio10" value=""> Black Flag <br>
+            <button type="button" id="button10"> Submit </button>
+            <p id="feedback10"></p>
+          </form>
+        </div>
+        <div id="question11">
+          <h2>Question 11</h2>
+          <h3>How many number one hits did Prince have?</h3>
+          <form action="">
+            <input type="number" id = "q11" name="number" value=""> Hits<br>
+            <button type="button" id="button11"> Submit </button>
+            <p id="feedback11"></p>
+          </form>
+        </div>
+        <div id="question12">
+          <h2>Question 12</h2>
+          <h3>What is the asnwer to: (2 + 4) * (10 / 2)?</h3>
+          <form action="">
+            <input type="number" id = "q12" name="number" value=""> Answer<br>
+            <button type="button" id="button12"> Submit </button>
+            <p id="feedback12"></p>
+          </form>
+        </div>
+        <div id="question13">
+          <h2>Question 13</h2>
+          <h3>Name one of my top five favorite movies?</h3>
+          <form action="">
+            <input type="text" id = "q13" name="text" value=""> Movies<br>
+            <button type="button" id="button13"> Submit </button>
+            <p id="feedback13"></p>
+          </form>
+        </div>
+    </main>
+    <footer>
+      <p>Created by Edgar Esparza on 03/30/16</p>
+    </footer>
+  </div>
+  <script src="js/final.js">  </script>
+</body>
+</html>

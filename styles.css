@@ -1,0 +1,20 @@
+/* Edgar Esparza 03/30/16 */
+
+#outerwrapper {
+  width: 90%;
+  margin : 0 auto 0 auto;
+  background-color: #247BA0;
+  color: fff;
+  padding: 1em;
+}
+/*for tablet*/
+@media only screen and (max-width: 64em){
+  #outerwrapper {
+    width:80%;
+  }
+}
+/* for phone*/
+@media only screen and (max-width: 37.5em){
+  #outerwrapper {
+    width:75%;
+}
